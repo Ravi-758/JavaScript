@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        form{
+            
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+        /* th{
+            margin: 10px;
+        } */
+    </style>
+</head>
+<body>
+ <section>
+    <form action="submit">
+        <label for="userName">Enter Name:-    </label>
+        <input type="text" class="userName" placeholder="enter name" required />
+        <label for="userEmail" >Enter Email:- </label>
+        <input type="email" class="userEmail" placeholder="enter email" required />
+        <label for="sal">salary</label>
+        <input type="text" class="sal" placeholder="enter salary" />
+        <input type="submit" />
+    </form>
+    <table>
+        <tr><th>name</th>
+       <th>email</th>
+        <th>password</th></tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+ </section>
+ <script src="script.js"></script>
+</body>
+</html>
