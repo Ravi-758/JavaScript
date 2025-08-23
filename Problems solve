@@ -1,1 +1,7 @@
-
+// args= 10,20,30,40,50
+function findAverage(...args) {
+    let length = args.length;
+    let sum = args.reduce((first,seond)=> first+seond); 
+    return sum/length 
+}
+// return sum of args and divide by total length of args
