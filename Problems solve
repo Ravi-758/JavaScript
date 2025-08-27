@@ -5,3 +5,16 @@ function findAverage(...args) {
     return sum/length 
 }
 // return sum of args and divide by total length of args
+
+
+//find largest gap
+function findLargestGap(arr) {
+    let largest = 0;
+    for(let i=1;i<=arr.length;i++){
+        let gap = Math.abs(arr[i]-arr[i-1]);
+        if(gap>largest){
+            largest = gap;
+        }
+    }
+    return largest
+}
